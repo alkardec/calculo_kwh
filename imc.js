@@ -9,6 +9,6 @@ function calcular(anterior, atual){
     var soma01 = (uso + energia) + 21.47;
     var pis = (soma01 * 0.72) / 100;
     var cofins = (soma01 * 3.3) / 100;
-    var valorpagar = uso + energia + 21.47 + pis + cofins + 9.66;
+    var valorpagar = uso + energia + 21.47 + pis + cofins + 9.77;
     document.getElementById('resultado2').innerHTML = valorpagar.toFixed(2);
 }
